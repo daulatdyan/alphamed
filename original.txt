@@ -1,0 +1,183 @@
+<html>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+
+.header {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  background-color: skyblue;
+}
+.header strong {
+  text-align: center;
+}
+
+</style>
+
+
+
+
+
+
+
+</head>
+
+<body>
+<table border=1 style="width:100%" height="1200">
+<tr height="40">
+<td colspan=5 align="center"><div class="header"> <div class="progress-container">
+    <div class="progress-bar" id="myBar"></div><strong>Important Notice to Patients Regarding the Coronavirus Outbreak<br>
+Please read our update on the growing spread of the novel coronavirus, COVID-19 and our response, recommendations and commitments to our patients.</strong> </div> </div>  </td>
+
+</tr>
+
+
+
+<tr height="25">
+<td  align="center">Doctor potal</td>
+<td  align="center">Patient portal</td>
+<td  align="center">Contact</td>
+<td colspan=2 align="left">Search bar</td>
+</tr>
+
+<tr>
+<td colspan=3 align="center"><img src="logo1.png" width="300"></td>
+
+
+<td align="center">contact phone</td>
+</tr>
+
+
+
+<tr height="40">
+<td align="center"><strong>Home</strong></td>
+<td align="center"><strong>About</strong></td>
+<td align="center"><strong>Doctors</strong></td>
+<td align="center"><strong>Contact</strong></td>
+<td align="center"><strong>Financial</strong></td>
+</tr>
+
+
+
+
+<div class="content">
+<tr>
+<td colspan=5> banner </td>
+</tr>
+
+<tr>
+<td colspan=5>
+ALphaMed Health care is a network of Family Health Centers where Patients come first. We are building a better Patient experience enabled by technology. We offer consultations with Family Medicine Doctors and a full range of diagnostics services including lab and imaging.<br> <br>
+
+<h4>Vision</h4>
+We envision a world class health care system that puts Patients first. <br> <br>
+
+<h4>Mission</h4>
+We aspire to be your trusted partner in health, empowering you to manage your health in a manner that is aligned with your values. <br><br>
+
+<h4>How is AlphaMed reimagining the doctors' chambers?</h4>
+Every process is designed to get Patients the solutions they need faster
+Our Family Health Professionals value Patients’ time and are their partners in health
+We harness state-of-the-art diagnostics tools and a fully integrated, remotely accessible Hospital Information System (HIS) to bring healthcare to our Patients’ fingertips
+All our facilities are designed for Patient comfort. <br><br>
+Our service providers receive continuous training according to international medical standards
+We employ check and balance to achieve accountability and transparency in all that we do. <br><br>
+
+<h4>Our Services</h4>
+
+Our Family Health Centers feature the following:
+<li>Family Health Professionals</li>
+<li>Family Medicine Doctors</li>
+<li>Gynecologists</li>
+<li>Pediatricians</li>
+<li>Dentists</li>
+<li>Ophthalmologists</li>
+<li>Physiotherapists</li>
+<li>Nutritionists</li>
+<li>Health Coaches</li>
+<li>Counselling + Psychological Services</li>
+Visiting Specialists<br>
+Full range of on-site laboratory services, including the following laboratories:
+<li>Histopathology + Cytopathology</li>
+<li>Biochemistry + Immunochemistry</li>
+<li>Microbiology + Serology</li>
+<li>Hematology + Coagulation</li>
+<li>Pathology</li>
+<br> <strong>Bangladesh's first Molecular Cancer Diagnostics laboratory (PCR - Polymerase chain reaction) in breast, cervical, lungs and colorectal cancers</strong><br>
+<li>Imaging</li>
+<li>Xray</li>
+<li>Mammography</li>
+<li>USG</li>
+<li>CT</li>
+<li>MRI</li>
+<li>DXA</li>
+<li>Teleradiology - reports reviewed by foreign and US-board certified radiologists</li>
+<strong>We also offer:</strong>
+<li>Annual Membership Plans</li>
+<li>Health Checks</li>
+<li>Home blood collection</li>
+<li>In-house pharmacy</li>
+</td>
+
+</tr>
+
+
+<tr>
+<td colspan=2>Covid</td>
+<td colspan=3>pic</td>
+</tr>
+
+
+<tr>
+<td colspan=5 align="center"> Appointment request</td>
+
+</tr>
+
+<tr>
+<td colspan=5>location</td>
+
+</tr>
+
+
+
+<tr>
+<td colspan=3>logo</td>
+<td colspan=2 align="center">find us</td>
+</tr>
+
+<tr>
+<td colspan=5 align="center"> <strong>© 2020 Alpha Med Physicians Group, LLC. All rights reserved. | Website by Daulat Dyan</strong></td>
+
+</tr>
+
+
+</div>
+
+</div> </div>
+
+
+
+
+</table>
+
+
+<script>
+// When the user scrolls the page, execute myFunction 
+window.onscroll = function() {myFunction()};
+
+function myFunction() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("myBar").style.width = scrolled + "%";
+}
+</script>
+
+
+</body>
+
+</html>

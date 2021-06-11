@@ -1,0 +1,981 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Praava Health | Family Doctors & Diagnostics</title>
+    <meta name="title" content="Praava Health | Family Doctors & Diagnostics">
+	<meta charset="utf-8"/>
+	<meta name="author" content="Denis" />
+	<meta name="description" content="Praava is a network of Family Health Centers where Patients come first. We are building a better Patient experience enabled by technology. We offer consultations with family doctors and a full range of diagnostics services including lab and imaging.">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta name="csrf-token" content="mS2a5jtn0xkINp5fuw58ANXxeo5tcyJMY86xncI7">
+	<meta property="description" content="Praava is a network of Family Health Centers where patients come first. We are building a better patient experience enabled by technology." />
+	<link href="https://praavahealth.com/public/images/favicon.png" rel="shortcut icon" type="image/x-icon" />
+	<link rel="apple-touch-icon" sizes="144x144" href="https://praavahealth.com/public/apple-touch-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="https://praavahealth.com/public/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="https://praavahealth.com/public/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" href="apple-touch-icon.png')}}">
+
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-5SLDS6G');
+	</script>
+	<!-- End Google Tag Manager -->
+
+	<!-- jQuery Files -->
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+	<!-- Royal Preloader -->
+	<script type="text/javascript" src="https://praavahealth.com/public/js/royal_preloader.min.js"></script>
+
+	<!-- Revolution Slider CSS -->
+	<link rel="stylesheet" type="text/css" href="https://praavahealth.com/public/revolution/css/settings.css">
+	<link rel="stylesheet" type="text/css" href="https://praavahealth.com/public/revolution/css/layers.css">
+		
+	<!-- Revolution Slider Navigation CSS -->
+	<link rel="stylesheet" type="text/css" href="https://praavahealth.com/public/revolution/css/navigation.css">
+
+	<!-- Stylesheets -->
+	<link href="https://praavahealth.com/public/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://praavahealth.com/public/css/style.css" rel="stylesheet" title="main-css">
+	<link href="https://praavahealth.com/public/css/bootstrap-social.css" rel="stylesheet">
+	<link href="https://praavahealth.com/public/css/animate.min.css" rel="stylesheet">
+	<link href="https://praavahealth.com/public/css/owl.carousel.css" rel="stylesheet" >
+	<link href="https://praavahealth.com/public/css/jquery.snippet.css" rel="stylesheet">
+	<link href="https://praavahealth.com/public/css/buttons.css" rel="stylesheet">
+
+	<!-- Style Switcher / remove for production -->
+	<link href="https://praavahealth.com/public/css/style-switcher.css" rel="stylesheet">
+	
+	<!-- Alternate Stylesheets / choose what color you want and include regularly AFTER style.css above -->
+
+
+	<link rel="alternate stylesheet" type="text/css" href="https://praavahealth.com/public/css/colors/purple.css" title="purple">
+
+	<link rel="alternate stylesheet" type="text/css" href="https://praavahealth.com/public/css/colors/red.css" title="red">
+	<link rel="alternate stylesheet" type="text/css" href="https://praavahealth.com/public/css/colors/silver.css" title="silver">
+
+	<link rel="alternate stylesheet" type="text/css" href="https://praavahealth.com/public/css/colors/seagul.css" title="seagul">
+	<link rel="alternate stylesheet" type="text/css" href="https://praavahealth.com/public/css/width-full.css" title="width-full">
+	
+
+	<!-- Icon Fonts -->
+	<link href="https://praavahealth.com/public/css/ionicons.min.css" rel='stylesheet' type='text/css'>
+	<link href="https://praavahealth.com/public/css/font-awesome.css" rel='stylesheet' type='text/css'>
+
+	<!-- Magnific Popup -->
+	<link href="https://praavahealth.com/public/css/magnific-popup.css" rel='stylesheet' type='text/css'>
+
+	<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.7&appId=1644009762516991";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-86550594-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-86550594-1');
+</script>
+
+
+</head>
+<body class="scrollreveal">
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5SLDS6G"
+					  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+
+	
+	<!-- Begin Boxed or Fullwidth Layout -->
+	
+	<script>
+   function smallHeaderOnScroll() {
+     const distanceY = window.pageYOffset || document.documentElement.scrollTop,
+     shrinkOn = 180,
+     headerEl = document.querySelector('.navbar-wrapper');
+     
+     if (distanceY > shrinkOn) {
+       headerEl.classList.add("smaller");
+     } 
+   }
+   
+   
+   window.addEventListener('scroll', smallHeaderOnScroll);
+   
+   
+   function largeHeaderOnScroll() {
+     const distanceY = window.pageYOffset || document.documentElement.scrollTop,
+     shrinkOn = 200,
+     headerEl = document.querySelector('.navbar-wrapper');
+     
+     if (distanceY < shrinkOn) {
+        headerEl.classList.remove("smaller");
+     } 
+   }
+   
+   
+   window.addEventListener('scroll', largeHeaderOnScroll);
+</script>
+<header><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    
+    <!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window,document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+ fbq('init', '2444422712507943'); 
+fbq('track', 'PageView');
+</script>
+<noscript>
+ <img height="1" width="1" 
+src="https://www.facebook.com/tr?id=2444422712507943&ev=PageView
+&noscript=1"/>
+</noscript>
+<!-- End Facebook Pixel Code -->
+    
+    
+   <div class="navbar-wrapper">
+      <div class="navbar navbar-main" id="fixed-navbar">
+         <div class="row" style="padding-top: 5px;">
+            <div class="container">
+               <div class="col-sm-12 column-header">
+                  <div class="mbtopnavbar">
+                     <div class="row">
+                        <div class="col-md-8 col-sm-8 col-xs-12">
+                           <a href="tel:+8801886555200" class="btn btn-social-icon btn-whatsapp btn-xs">
+                           <i class="fa fa-whatsapp"></i>
+                           </a><a href="https://wa.me/+8801886555200"> +8801886555200 </a>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-12">
+                        </div>
+                     </div>
+                  </div>
+                  <div class="navbar-header">
+                     <!-- Brand -->
+                     <div class="row">
+                        <div class="col-md-12 col-sm-12 col-xs-12 logodiv">
+                           <div class="col-md-9 col-sm-9 col-xs-12">
+                              <a href="https://praavahealth.com" class="navbar-brand">
+                              <img src="https://praavahealth.com/public/images/praava logo+familydoctors.png" class="raleway-logo img-responsive" alt="Praava Health Logo">
+                              </a>
+                           </div>
+                           <div class="col-md-3 col-sm-9 col-xs-12">
+                              <div class="row">
+                                 <div class="version desktop"><a href="https://bangla.praavahealth.com">Bangla</a></div>
+                              </div>
+                           </div>
+                           <div class="row">
+                              <div class="version mob"><a href="https://bangla.praavahealth.com">Bangla</a></div>
+                              <div class="hotline desktop"><a disabled="disabled"> <img src="https://praavahealth.com/public/images/icon/callcenter.png" width="22">&nbsp;<b>call us</b> 10648</a>
+                              </div>
+                              <div class="dttopnavbar">
+                                 <a href="tel:+8801886555200" class="btn btn-social-icon btn-whatsapp btn-xs">
+                                 <i class="fa fa-whatsapp"></i>
+                                 </a><a href="https://wa.me/+8801886555200"> +8801886555200 / +8801841772282</a>
+                              </div>
+                              <div class="hotline mob"><a href="tel:09678701701"> <img src="https://praavahealth.com/public/images/icon/callcenter.png" width="22">&nbsp;<b>call us</b> 10648</a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="clr"></div>
+                        <!-- /navbar header -->
+                        <!-- Main Navigation - Explained in Documentation -->
+                        <div class="topright">
+                           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse" style="z-index: 800;"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                        </div>
+                        <nav class="navbar-collapse collapse navHeaderCollapse" role="navigation" id="main_menu">
+                           <ul class="nav navbar-nav">
+                              <li class="dropdown dropdown-main">
+                                 <a href="#" class="trigger" data-hover="dropdown" data-toggle="dropdown">
+                                    About Us
+                                    <p> <img src="https://praavahealth.com/public/images/icon/menu/About.png" /></p>
+                                 </a>
+                                 <ul class="dropdown-menu dropdown-subhover animated fadeIn dropdown-animation first firstchild">
+                                    <li class="dropdown dropdown-submenu">
+                                       <a class="trigger" href="#">About Praava</a>
+                                       <ul class="dropdown-menu animated fadeIn dropdown-animation">
+                                          <li><a href="https://praavahealth.com/whoweare">&nbsp&nbsp&nbsp Who We Are</a></li>
+                                          <li><a href="https://praavahealth.com/whoweare#praavadifference">&nbsp&nbsp&nbsp The Praava Difference</a></li>
+                                          <li><a href="https://praavahealth.com/faq">&nbsp&nbsp&nbsp FAQs</a></li>
+                                       </ul>
+                                    </li>
+                                    <li class="dropdown dropdown-submenu">
+                                       <a class="trigger" href="#">Our Team</a>
+                                       <ul class="dropdown-menu animated fadeIn dropdown-animation">
+                                          <li><a href="https://praavahealth.com/meetourteam">&nbsp&nbsp&nbsp Meet Our Team</a></li>
+                                          <li><a href="https://praavahealth.com/openings">&nbsp&nbsp&nbsp Careers</a></li>
+                                       </ul>
+                                    </li>
+                                    <li class="dropdown dropdown-submenu">
+                                       <a class="trigger" href="#">Policies</a>
+                                       <ul class="dropdown-menu animated fadeIn dropdown-animation">
+                                          <li><a href="https://praavahealth.com/privacynotice">&nbsp&nbsp&nbsp Privacy Notice</a></li>
+                                          <li><a href="https://praavahealth.com/ethics">&nbsp&nbsp&nbsp Code Of Ethics</a></li>
+                                          <li><a href="https://praavahealth.com/patientbillofrights">&nbsp&nbsp&nbsp Patient Bill of Rights</a></li>
+                                       </ul>
+                                    </li>
+                                    <li ><a href="https://praavahealth.com/contactus">Location + Contact Us</a></li>
+                                    <li ><a href="https://praavahealth.com/webpastevents">Events</a></li>
+                                    <li ><a href="https://praavahealth.com/webgallery">Gallery</a></li>
+                                 </ul>
+                              </li>
+                              <li class="dropdown dropdown-main">
+                                 <a href="#" class="trigger" data-hover="dropdown" data-toggle="dropdown">
+                                    Medical Services                              
+                                    <p><img src="https://praavahealth.com/public/images/icon/menu/medical.png" /></p>
+                                 </a>
+                                 <ul class="dropdown-menu dropdown-subhover animated fadeIn dropdown-animation firstchild">
+                                    <li class="dropdown dropdown-submenu">
+                                       <a class="trigger" href="#">Family Health Professionals</a>
+                                       <ul class="dropdown-menu animated fadeIn dropdown-animation">
+                                          <li><a href="https://praavahealth.com/familyhealthprofessionals">&nbsp&nbsp&nbsp Family Medicine Doctors</a></li>
+                                          <li><a href="https://praavahealth.com/familyhealthprofessionals#obstetriciansheadline">&nbsp&nbsp&nbsp Obstetricians / Gynecologists</a></li>
+                                          <li><a href="https://praavahealth.com/familyhealthprofessionals#pediatriciansheadline">&nbsp&nbsp&nbsp Pediatricians</a></li>
+                                          <li><a href="https://praavahealth.com/familyhealthprofessionals#dentistsheadline">&nbsp&nbsp&nbsp Dentists</a></li>
+                                          <li><a href="https://praavahealth.com/familyhealthprofessionals#ophthalmologistsheadline">&nbsp&nbsp&nbsp Ophthalmologists</a></li>
+                                          <li><a href="https://praavahealth.com/familyhealthprofessionals#nursesheadline">&nbsp&nbsp&nbsp Nurses</a></li>
+                                          <li><a href="https://praavahealth.com/familyhealthprofessionals#physiotherapistsheadline">&nbsp&nbsp&nbsp Physiotherapists</a></li>
+                                          <li><a href="https://praavahealth.com/familyhealthprofessionals#nutritionistsheadline">&nbsp&nbsp&nbsp Nutritionists</a></li>
+                                          <li><a href="https://praavahealth.com/familyhealthprofessionals#healthcoachesheadline">&nbsp&nbsp&nbsp Health Coaches</a></li>
+                                          <li><a href="https://praavahealth.com/familyhealthprofessionals#counselorsheadline">&nbsp&nbsp&nbsp Counselors &amp; Psychologists</a></li>
+                                       </ul>
+                                    </li>
+                                    <li ><a href="https://praavahealth.com/visitingspecialists">Visiting Specialists</a></li>
+                                 </ul>
+                              </li>
+                              <li class="dropdown dropdown-main">
+                                 <a href="#" class="trigger" data-hover="dropdown" data-toggle="dropdown">
+                                    Diagnostics
+                                    <p><img src="https://praavahealth.com/public/images/icon/menu/diagnosis.png" /></p>
+                                 </a>
+                                 <ul class="dropdown-menu dropdown-subhover animated fadeIn dropdown-animation firstchild">
+                                    <li><a href="https://praavahealth.com/labservices">Lab Services</a></li>
+                                    <li><a href="https://praavahealth.com/imaging">Imaging</a></li>
+                                 </ul>
+                              </li>
+                              <!-- <li class=""><a href="https://praavahealth.com/diagnostics">Diagnostics</a> </li> -->
+                              <!-- <li class=""><a href="https://praavahealth.com/healthcheck">Health Checks</a> </li> -->
+                              <li class="dropdown dropdown-main">
+                                 <a href="#" class="trigger" data-hover="dropdown" data-toggle="dropdown">
+                                    Health Checks
+                                    <p><img src="https://praavahealth.com/public/images/icon/menu/Health-check.png" /></p>
+                                 </a>
+                                 <ul class="dropdown-menu dropdown-subhover firstchild animated fadeIn dropdown-animation">
+                                    <li><a href="https://praavahealth.com/healthcheck" id="linkhealth1">What a Health Check Is</a></li>
+                                    <li><a href="https://praavahealth.com/healthcheck#heading1" id="linkhealth1">Her Annual Health Check (age < 40 yrs) </a></li>
+                                    <li><a href="https://praavahealth.com/healthcheck#heading2" id="linkhealth2">His Annual Health Check (age < 40 yrs) </a></li>
+                                    <li><a href="https://praavahealth.com/healthcheck#heading3" id="linkhealth3">Her Annual Health Check (age 40-65 yrs) </a></li>
+                                    <li><a href="https://praavahealth.com/healthcheck#heading4" id="linkhealth4">His Annual Health Check (age 40-65 yrs) </a></li>
+                                    <li><a href="https://praavahealth.com/healthcheck#heading5" id="linkhealth5">Her Annual Health Check (age >65 yrs) </a></li>
+                                    <li><a href="https://praavahealth.com/healthcheck#heading6" id="linkhealth6">His Annual Health Check (age >65 yrs) </a></li>
+                                    <li><a href="https://praavahealth.com/healthcheck#heading7" id="linkhealth7">Cardiac Screening </a></li>
+                                    <li><a href="https://praavahealth.com/healthcheck#heading8" id="linkhealth8">Diabetes Screening </a></li>
+                                    <!-- <li><a href="https://praavahealth.com/healthcheck#heading9" id="linkhealth9">Travellers Health Check </a></li> -->
+                                    <li><a href="https://praavahealth.com/healthcheck#heading10" id="linkhealth10">Student Health Annual Check </a></li>
+                                    <li><a href="https://praavahealth.com/healthcheck#heading11" id="linkhealth11">Drug Screening</a></li>
+                                 </ul>
+                              </li>
+                              <!-- <li class=""><a href="https://praavahealth.com/membershipplans">Membership Plans</a> </li> -->
+                              <li class="dropdown dropdown-main">
+                                 <a href="#" class="trigger" data-hover="dropdown" data-toggle="dropdown">
+                                    Annual Membership Plans
+                                    <p><img src="https://praavahealth.com/public/images/icon/menu/Mmbership.png" /></p>
+                                 </a>
+                                 <ul class="dropdown-menu dropdown-subhover firstchild animated fadeIn dropdown-animation">
+                                    <li><a href="https://praavahealth.com/membershipplans" id="link1">What a Membership Plan Is</a></li>
+                                    <li><a href="https://praavahealth.com/membershipplans" id="link1">Praava Silver Membership Plans</a></li>
+                                    <li><a href="https://praavahealth.com/membershipplans" id="link1">Praava Gold Membership Plans</a></li>
+                                    <li><a href="https://praavahealth.com/membershipplans" id="link1">Praava Platinum Membership Plans</a></li>
+                                    <li><a href="https://praavahealth.com/membershipplans#heading3" id="link3">Prediabetes Plan</a></li>
+                                    <li><a href="https://praavahealth.com/membershipplans#heading3" id="link3">Diabetes Plan</a></li>
+                                    <li><a href="https://praavahealth.com/membershipplans#heading4" id="link4">Cardiac & Hypertension Plan</a></li>
+                                    <li><a href="https://praavahealth.com/membershipplans#heading5" id="link5">Maternity Plan</a></li>
+                                    
+                                 </ul>
+                              </li>
+                              <li class="dropdown dropdown-main">
+                                 <a href="#" class="trigger" data-hover="dropdown" data-toggle="dropdown">
+                                    Corporates
+                                    <p><img src="https://praavahealth.com/public/images/icon/menu/corporate.png" /></p>
+                                 </a>
+                                 <ul class="dropdown-menu dropdown-subhover firstchild animated fadeIn dropdown-animation">
+                                    <li><a href="https://praavahealth.com/annualhealthcheck">Corporate Health Checks</a></li>
+                                    <li><a href="https://praavahealth.com/physiotherapy">Physiotherapy, Nutrition Planning & Fitness</a></li>
+                                    <li><a href="https://praavahealth.com/corporate">Corporate Membership Plans</a></li>
+                                 </ul>
+                              </li>
+                              <li><a class="blognav" href="https://praavahealth.com/webblog">Blog</a></li>
+                              
+                              <li class="dropdown dropdown-main">
+                                 <a href="#" class="trigger" data-hover="dropdown" data-toggle="dropdown">
+                                    Book Now
+                                    <p><img src="https://praavahealth.com/public/images/icon/menu/Payment Icon-brand color.png" /></p>
+                                 </a>
+                                 <ul class="dropdown-menu dropdown-subhover firstchild animated fadeIn dropdown-animation">
+                                    <li><a href="https://praavahealth.com/videoconsult">Video Consultation</a></li>
+                                    <li><a class="blognav" href="https://praavahealth.com/packages">Promotions</a></li>
+                                    
+                                 </ul>
+                              </li>
+                              <!-- <li><a class="blognav" href="https://praavahealth.com/packages">Promotions</a></li> -->
+                              
+                                                                                          <li class="dropdown dropdown-main" style="background-color: #800055;border-radius: 10px;padding-right: 10px;padding-left: 10px;font-size: 15px;height: 40px;padding-bottom: 0px;">
+                                 <a style="color:white;" href="#" class="trigger" data-hover="dropdown" data-toggle="dropdown">
+                                    COVID-19
+                                    <p><img src="https://praavahealth.com/public/images/icon/menu/covid-19.png" /></p>
+                                 </a>
+                                 <ul class="dropdown-menu dropdown-subhover firstchild animated fadeIn dropdown-animation">
+                                    <li><a href="https://praavahealth.com/covid-19">COVID-19 Information</a></li>
+                                    <li><a href="https://praavahealth.com/covid-19#screening-tools">COVID-19 Screening & Assessment</a></li>
+                                    <li><a href="https://praavahealth.com/covid-19#latest-bd-news">Latest Bangladesh News</a></li>
+                                    <li><a href="https://praavahealth.com/covid-19#talk-to-a-doctor">Talk to a Doctor</a></li>
+                                    <li><a href="https://praavahealth.com/covid-19#what-to-do-if-you-need-testing">If You Need to Get Tested</a></li>
+                                    <li><a href="https://praavahealth.com/covid-19#praava-resources">Praava Resources</a></li>
+                                    <li><a href="https://praavahealth.com/covid-19#national-and-international-resources">Other Resources</a></li>
+                                 </ul>
+                              </li>
+                                                            
+                              <!-- 
+                                 <li class="dropdown dropdown-submenu">
+                                     <a class="trigger" href="#">Promotions</a>
+                                     <ul class="dropdown-menu animated fadeIn dropdown-animation">
+                                         <li><a href="https://praavahealth.com/promotions/praava">Praava's Promotions</a></li>
+                                         <li><a href="https://praavahealth.com/promotions/corporate">Corporate Promotions</a></li>
+                                     </ul>
+                                 </li> -->
+                              <!-- <li class="dropdown dropdown-main">
+                                 <a href="#" class="trigger" data-hover="dropdown" data-toggle="dropdown">Promotions</a>
+                                 <ul class="dropdown-menu dropdown-subhover animated fadeIn dropdown-animation first firstchild" style="margin-left: 0px;">
+                                     <li class="dropdown dropdown-submenu">
+                                         <a class="trigger" href="#">Praava's Promotion </a>
+                                         <ul class="dropdown-menu animated fadeIn dropdown-animation">
+                                                                                                                                                                                    <li>
+                                                 <a href="#">  
+                                                     Currently No Promotion Available
+                                                 </a>
+                                             </li>
+                                                                                      </ul>
+                                     </li>
+                                 
+                                     <li class="dropdown dropdown-submenu">
+                                         <a class="trigger" href="#">Corporate Promotion  </a>
+                                         <ul class="dropdown-menu animated fadeIn dropdown-animation">
+                                                                                                                                                                                    <li>
+                                                 <a href="#">  
+                                                     Currently No Promotion Available
+                                                 </a>
+                                             </li>
+                                                                                      </ul>
+                                     </li>
+                                 </ul>                                          
+                                 </li>
+                                 -->
+                        </nav>
+                        <!-- /nav -->
+                     </div>
+                     </ul> 
+                     <!-- /navbar right -->
+                     
+                     <nav role="navigation">
+                        <ul class="nav navbar-nav rightnavextra">
+                           <!-- <li class="rightpartextra">
+                              <a href="http://52.221.159.98:7070/#/signup" style="color: #FFFFFF;">
+                                 <img src="https://praavahealth.com/public/images/icon/rightbar/right-register.png"> </i>
+                                 <div class="text1">Sign Up
+                              </a>
+                              </div>
+                           </li> -->
+                           
+                            <li class="rightpartextra">
+                              <a href="https://appointments.praavahealth.com" style="color: #FFFFFF;">
+                                 <img src="https://praavahealth.com/public/images/icon/rightbar/covidtest2.png"> 
+                                 <div class="text2"><span class="first">Book<br></span>COVID-19 Test
+                              </a>
+                              </div> 
+                           </li>
+                           
+                           <li class="rightpartextra">
+                              <a href="https://praavahealth.com/videoconsult" style="color: #FFFFFF;">
+                                 <img src="https://praavahealth.com/public/images/icon/rightbar/right-appoinment.png"> 
+                                 <div class="text3"><span class="first">Book<br></span>Appointment
+                              </a>
+                              </div>
+                           </li>
+                           <!-- <li class="rightpartextra">
+                              <a href="http://52.221.159.98:7070/#/dashboard" style="color: #FFFFFF;">
+                                 <img src="https://praavahealth.com/public/images/icon/rightbar/right-portal.png"> 
+                                 <div class="text2">Patient </br> Portal
+                              </a>
+                              </div>
+                           </li> -->
+                           <!-- <li class="rightpartextra">
+                              <a href="https://play.google.com/store/apps/details?id=com.praava.patientportal&hl=en" style="color: #FFFFFF;">
+                                 <img src="https://praavahealth.com/public/images/icon/rightbar/right-portal.png"> 
+                                 <div class="text2">Patient </br> Portal
+                              </a>
+                              </div>
+                           </li> -->
+                           <div class="tools-search-form" id="searchform" style="display: none;">
+                              <div class=" form-horizontal searchblock" >
+                                 <div class="col-md-9">  
+                                    <input type="text" autocapitalize="off" autocorrect="off" class="form-control searchinput" placeholder="Search">
+                                 </div>
+                                 <div class="col-md-3">	
+                                    <button type="submit" class="form-control submitbutton" name="submit" ><i class="fa fa-arrow-right"></i></button>
+                                 </div>
+                              </div>
+                           </div>
+                  </div>
+               </div>
+               </ul>
+               <!-- /navbar right -->
+               </nav> 
+               <!-- /nav -->
+               
+            </div>
+         </div>
+      </div>
+   </div>
+   </div>
+   </div>
+   </div>
+   <!-- /container header -->
+   </div>
+   <!-- /navbar wrapper -->
+   </div>
+   </div>
+   </div>
+   </div>
+   
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:1608313,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+   
+</header>
+<div class="mbclear"></div>
+<script>
+   $("#search,#searchform").mouseenter(function() {
+       $("#searchform").slideDown();
+      
+       
+   });
+    $("#searchform").stop();
+   $("#search,#searchform").mouseleave(function() {
+       $("#searchform").slideUp();
+   });
+   
+</script>	<!-- Start Switcher -->
+
+
+	<!-- Begin Boxed or Fullwidth Layout -->
+	<div id="bg-boxed">
+	    <div class="boxed">
+
+
+			<!-- End Header -->
+
+			<!-- Start Slider Revolution -->
+			
+<div id="praavaslider" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#praavaslider" data-slide-to="0" class="active"></li>
+    <li data-target="#praavaslider" data-slide-to="1"></li>
+    <li data-target="#praavaslider" data-slide-to="2"></li>
+    <li data-target="#praavaslider" data-slide-to="3"></li>
+    <li data-target="#praavaslider" data-slide-to="4"></li>
+  </ol>
+  
+  
+  <!--
+  	<button type="button" style="padding: 0px 0px;position: absolute;bottom: 45px;left: 100%;z-index: 15;padding-left: 0;margin-left: -22.5%;text-align: center;list-style: none;" class="btn screening web">
+		<img style="height: 60px;width: 268px;" src="https://praavahealth.com/public/images/Corona_Website_Button_1.png" />
+	</button>
+
+	<button type="button" style="padding: 0px 0px;position: absolute;bottom: 20px;left: 100%;z-index: 15;padding-left: 0;margin-left: -34%;text-align: center;list-style: none;" class="btn screening mobile">
+		<img style="height: 25px;width: 110px" src="https://praavahealth.com/public/images/Corona_Website_Button_1.png" />
+	</button>
+		-->
+
+  <div class="carousel-inner">
+    <div class="item active">
+      <a href=""><img src="https://praavahealth.com/public/images/slider/slider1.jpg" /></a>
+      
+    </div>
+    <div class="item">
+      <a href=""><img src="https://praavahealth.com/public/images/slider/slider2.jpg" /></a>
+      
+    </div>
+    <div class="item">
+      <a href=""><img src="https://praavahealth.com/public/images/slider/slider3.jpg" /></a>
+      
+    </div>
+    <div class="item">
+      <a href=""><img src="https://praavahealth.com/public/images/slider/slider4.jpg" /></a>
+  
+    </div>
+
+    <div class="item">
+      <a href=""><img src="https://praavahealth.com/public/images/slider/slider5.jpg" /></a>
+  
+    </div>
+ 
+  </div>
+  
+  
+ 
+  
+  
+
+
+</div>
+
+
+ <div class="container">
+	<div class="maincontainer">
+		<div style="padding-top: 2%;">
+			<div class="col-sm-12">
+				<!-- <div class="row" style="margin-top: 2%;margin-bottom: 2%;">
+					<img src="https://praavahealth.com/public/images/slider/childrenhealth.jpg" style="width: 100%;">
+				</div> -->
+				<div id="div1">
+				 	
+				 	
+				 	
+			 	
+				 	Praava Health is a network of Family Health Centers where Patients come first. We are building a better Patient experience enabled by technology. We offer consultations with Family Medicine Doctors and a full range of diagnostics services including lab and imaging. 
+					<br><br>
+				</div>
+
+				<div id="div2">
+					<h3 id="div2headline" style="font-weight: bold;">Vision</h3>
+					
+					We envision a world class health care system that puts Patients first. <br><br>
+				
+				</div>
+
+				<div id="div3">
+					<h3 id="div3headline" style="font-weight: bold;">Mission</h3>
+					We aspire to be your trusted partner in health, empowering you to manage your health in a manner that is aligned with your values.<br><br>
+				</div>
+
+				<div id="praavadifference">
+					<h3 id="div4headline" style="font-weight: bold;">How is Praava reimagining the doctors' chambers?</h3>
+					<ul>
+						<li>Every process is designed to get Patients the solutions they need faster</li>
+						<li>Our Family Health Professionals value Patients’ time and are their partners in health</li>
+						<li>We harness state-of-the-art diagnostics tools and a fully integrated, remotely accessible Hospital Information System (HIS) to bring healthcare to our Patients’ fingertips</li>
+						<li>All our facilities are designed for Patient comfort</li>
+						<li>Our service providers receive continuous training according to international medical standards</li>
+						<li>We employ check and balance to achieve accountability and transparency in all that we do</li></br>
+					</ul>
+					
+					
+				</div>
+				
+				<div id="div3">
+					<h3 id="div3headline" style="font-weight: bold;">Our Services</h3>
+					Our Family Health Centers feature the following:<ul></ul>
+						    
+							Family Health Professionals
+							<ul> 
+				 			<li>Family Medicine Doctors</li>
+				 			<li>Gynecologists</li>
+				 			<li>Pediatricians</li>
+				 			<li>Dentists</li>
+				 			<li>Ophthalmologists</li>
+				 			<li>Physiotherapists</li>
+				 			<li>Nutritionists</li>
+				 			<li>Health Coaches</li>
+				 			<li>Counselling + Psychological Services</li>	 			
+				 			</ul>
+				 			Visiting Specialists<br>
+				 			Full range of on-site laboratory services, including the following laboratories:<br>
+				 			<ul>
+				 				<li>Histopathology + Cytopathology</li>
+				 				<li>Biochemistry + Immunochemistry</li>
+				 				<li>Microbiology + Serology</li>
+				 				<li>Hematology + Coagulation</li>
+				 				<li>Pathology</li>
+				 				<li>Bangladesh's first Molecular Cancer Diagnostics laboratory (PCR - Polymerase chain reaction) in breast, cervical, lungs and colorectal cancers</li>
+
+				 			</ul>
+				 		
+				 			Imaging<br>
+				 			<ul>
+				 				<li>Xray</li>
+				 				<li>Mammography</li>
+				 				<li>USG</li>
+				 				<li>CT</li>
+				 				<li>MRI</li>
+				 				<li>DXA</li>
+				 				<li>Teleradiology - reports reviewed by foreign and US-board certified radiologists</li>
+				 			</ul>
+				 			
+				 			We also offer:<br>
+				 			<ul>
+				 				<li>Annual Membership Plans</li>
+				 				<li>Health Checks</li>
+				 				<li>Home blood collection</li>
+				 				<li>In-house pharmacy</li>
+				 			</ul>
+				</div>
+			</div>
+
+		
+
+		 	
+		</div>
+	</div>
+</div>
+  
+<link href="https://praavahealth.com/public/sweetalert/sweetalert.css" rel="stylesheet" type="text/css" />
+
+<script src="https://praavahealth.com/public/sweetalert/sweetalert.min.js"></script>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+        if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+            $(".mobile").show();
+            $(".web").hide();
+        } else {
+            $(".mobile").hide();
+            $(".web").show();
+        }
+
+		$(".mobile, .web").click(function() {
+			var url = "http://covidscreening.praavahealth.com/";
+			window.open(url, '_blank');
+		})
+	});
+</script>
+			<!-- End Slider Revolution -->
+
+		
+
+
+			<!-- Begin Footer -->
+						﻿
+<footer class="footer-light">
+   <div class="container">
+   
+      <center>We care for you like family </center>
+      <br>
+      <div class="row">
+          
+      	<div class="col-sm-3 col-xs-12">
+            <form method="post" action="https://praavahealth.com/savesnewsletter" >
+         		<div class="heading-footer"><h4>Subscribe to Our Newsletter</h4></div>
+         		<input type="hidden" name="_token" value="mS2a5jtn0xkINp5fuw58ANXxeo5tcyJMY86xncI7">
+               <input type="email" placeholder="Enter Email Address" class="form-control" required="required" name="newsemail">
+         		<input type="submit" class="btn btn-pink mt5" value="Subscribe"  />
+            </form>
+      	</div>
+      	<div class="col-sm-7 col-xs-12 menus">
+         <div class="col-sm-4 col-xs-12">
+         	<div class="heading-footer"><h4>Find Out More</h4></div>
+            
+               <li class="footerli"><a href="https://praavahealth.com/webblog">Blog</a> </li>
+               <li class="footerli"><a href="https://praavahealth.com/openings">Careers</a> </li>
+               <li class="footerli"><a href="https://praavahealth.com/contactus">Location + Contact Us</a> </li>
+               <li class="footerli"><a href="https://praavahealth.com/faq">FAQs</a> </li>
+            
+         </div>
+         <div class="col-sm-4 col-xs-12 mg25-xs">
+         	<div class="heading-footer"><h4>News & Media</h4></div>
+            <li class="footerli"><a href="https://praavahealth.com/webpastevents">Past Events</a> </li>
+            <li class="footerli"><a href="https://praavahealth.com/webpress">Press</a> </li>
+            <li class="footerli"><a href="https://praavahealth.com/webgallery">Gallery</a> </li>
+         </div> 
+         <div class="col-sm-4 col-xs-12 mg25-xs">
+         	<div class="heading-footer"><h4>Policies</h4></div>
+            <li class="footerli"><a href="https://praavahealth.com/privacynotice">Privacy Notice</a> </li>
+            <li class="footerli"><a href="https://praavahealth.com/ethics">Code of Ethics</a> </li>
+            <li class="footerli"><a href="https://praavahealth.com/patientbillofrights">Patient Bill of Rights</a> </li>
+         </div>
+         </div>
+         <div class="col-sm-2 col-xs-12 last">
+         	<div class="heading-footer"><h4>Social Networks</h4></div>
+            <a href="https://www.facebook.com/praavahealth" target="_blank" class="btn btn-social-icon btn-facebook btn-lg">
+            <i class="fa fa-facebook"></i>
+            </a>
+            <a href="https://twitter.com/PraavaHealth" target="_blank" class="btn btn-social-icon btn-twitter btn-lg">
+            <i class="fa fa-twitter"></i>
+            </a>
+            <a href="https://www.linkedin.com/company/praava-health" target="_blank" class="btn btn-social-icon btn-linkedin btn-lg">
+            <i class="fa fa-linkedin"></i>
+            </a>
+         </div>
+         
+         
+      </div>
+      <!-- /row -->
+      <!-- Copyright -->
+      <div class="row">
+         <hr>
+         <div class="col-sm-11 col-xs-10">
+            <p class="copyright">© 2020 Praava Health Bangladesh Limited</b>.</p>
+         </div>
+         <div class="col-sm-1 col-xs-2 text-right">
+            <a href="#" class="scroll-top">
+               <div class="footer-scrolltop-holder"><span class="ion-ios7-arrow-up footer-scrolltop"></span></div>
+            </a>
+         </div>
+      </div>
+      <!-- /row -->
+   </div>
+   <!-- /container -->
+</footer>
+
+
+	<div class="sticky-container-last">
+		<ul class="sticky-last">
+   		<li>
+            <a href="https://www.facebook.com/praavahealth/?ref=br_rs" target="_blank"> 
+   				 <img width="32" height="32" title="" alt="" src="https://praavahealth.com/public/images/icon/floatingsocial/facebook.png" /> 
+   	            
+   			</a>
+         </li>
+			<li>
+            <a href="https://twitter.com/PraavaHealth" target="_blank">
+				     <img width="32" height="32" title="" alt="" src="https://praavahealth.com/public/images/icon/floatingsocial/twitter.png" />
+            </a>
+				
+			</li>
+			<li>
+            <a href="https://www.linkedin.com/company/10120462/" target="_blank">
+               <img width="32" height="32" title="" alt="" src="https://praavahealth.com/public/images/icon/floatingsocial/linkedin.png" />
+               
+            </a>
+				
+			</li>
+
+	
+		
+		</ul>
+		
+		
+	</div>
+
+	<div class="sticky-container-first">
+		<ul class="sticky-first">
+			<a href="https://praavahealth.com/familyhealthprofessionals#familydoctorheadline" style="text-decoration: none;">
+				<li>
+					<img width="32" height="32" title="" alt="" src="https://praavahealth.com/public/images/icon/family-doctor.png" />
+					<p>Family Doctor</p>
+				</li>
+			</a>
+			
+			<a href="https://praavahealth.com/healthcheck" style="text-decoration: none;">
+				<li>
+					<img width="32" height="32" title="" alt="" src="https://praavahealth.com/public/images/icon/health-check.png" />
+					<p>Health Check</p>
+				</li>
+			</a>
+			
+
+			<a href="https://praavahealth.com/membershipplans" style="text-decoration: none;">
+				<li class="third">
+					<img width="32" height="32" title="" alt="" src="https://praavahealth.com/public/images/icon/membership.png" />
+					<p>Annual Membership Plan</p>
+				</li>
+			</a>
+			
+            <a href="https://praavahealth.com/labservices" style="text-decoration: none;">
+				<li class="fourth">
+					<img width="32" height="32" title="" alt="" src="https://praavahealth.com/public/images/icon/lab.png" />
+					<p>Laboratory</p>
+				</li>
+			</a>
+			
+			<a href="https://praavahealth.com/imaging" style="text-decoration: none;">
+				<li class="fifth">
+					<img width="32" height="32" title="" alt="" src="https://praavahealth.com/public/images/icon/imaging.png" />
+					<p>Imaging</p>
+				</li>
+			</a>
+			
+
+			
+						
+	
+		
+		</ul>
+	</div>
+
+
+<style type="text/css">
+   .footerli{
+      list-style: none;
+   }
+</style>			<!-- End Footer --> 
+			
+		</div><!-- /boxed -->
+	</div><!-- /bg boxed-->
+	<!-- End Boxed or Fullwidth Layout -->
+	
+	<!-- Javascript Files -->
+	<script type="text/javascript" src="https://praavahealth.com/public/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="https://praavahealth.com/public/js/jquery.easing.min.js"></script>
+	<script type="text/javascript" src="https://praavahealth.com/public/js/jquery.mixitup.min.js"></script>
+	<script type="text/javascript" src="https://praavahealth.com/public/js/scrollReveal.js"></script>
+	<script type="text/javascript" src="https://praavahealth.com/public/js/owl.carousel.min.js"></script>
+	<script type="text/javascript" src="https://praavahealth.com/public/js/jquery.magnific-popup.min.js"></script>
+	<script type="text/javascript" src="https://praavahealth.com/public/js/jquery.snippet.min.js"></script>
+	<script type="text/javascript" src="https://praavahealth.com/public/js/jquery.fitvids.js"></script>
+	<script type="text/javascript" src="https://praavahealth.com/public/js/style-switcher.js"></script><!-- Remove for production -->
+	<script type="text/javascript" src="https://praavahealth.com/public/js/activate-snippet.js"></script>
+	<script type="text/javascript" src="https://praavahealth.com/public/js/skrollr.min.js"></script>
+
+	<!-- On Scroll Animations - scrollReveal.js -->
+    <script>
+		var config = {
+		easing: 'hustle',
+		mobile:  true,
+		delay:  'onload'
+		}
+		window.sr = new scrollReveal( config );
+    </script>
+
+	<!-- Slider Revolution JS -->
+	<script type="text/javascript" src="https://praavahealth.com/public/revolution/js/jquery.themepunch.tools.min.js"></script>
+	<script type="text/javascript" src="https://praavahealth.com/public/revolution/js/jquery.themepunch.revolution.min.js"></script>
+
+	<!-- Slider Revolution Extensions (Load Extensions only on Local File Systems The following part can be removed on Server for On Demand Loading) -->	
+	<script type="text/javascript" src="https://praavahealth.com/public/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+	<script type="text/javascript" src="https://praavahealth.com/public/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+	<script type="text/javascript" src="https://praavahealth.com/public/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+	<script type="text/javascript" src="https://praavahealth.com/public/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+	<script type="text/javascript" src="https://praavahealth.com/public/revolution/js/extensions/revolution.extension.migration.min.js"></script>
+	<script type="text/javascript" src="https://praavahealth.com/public/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+	<script type="text/javascript" src="https://praavahealth.com/public/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+	<script type="text/javascript" src="https://praavahealth.com/public/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+	<script type="text/javascript" src="https://praavahealth.com/public/revolution/js/extensions/revolution.extension.video.min.js"></script>
+	<script type="text/javascript" src="https://praavahealth.com/public/js/main.js"></script>
+	<!--script type="text/javascript" src="https://callmenick.com/_development/resize-header-on-scroll/js/classie.js"></script-->
+
+	<!-- Slider Revolution Main -->
+	<script type="text/javascript">
+	jQuery(document).ready(function() { 
+	   jQuery("#slider1").revolution({
+	        sliderType:"standard",
+	        startDelay:2500,
+	        spinner:"spinner2",
+	        sliderLayout:"auto",
+	        viewPort:{
+	           enable:false,
+	           outof:'wait',
+	           visible_area:'100%'
+	        }
+	        ,
+	        delay:9000,
+			navigation: {
+				keyboardNavigation:"off",
+				keyboard_direction: "horizontal",
+				mouseScrollNavigation:"off",
+				onHoverStop:"off",
+				arrows: {
+					style:"erinyen",
+					enable:true,
+					hide_onmobile:true,
+					hide_under:600,
+					hide_onleave:true,
+					hide_delay:200,
+					hide_delay_mobile:1200,
+					tmp:'<div class="tp-title-wrap">  	<div class="tp-arr-imgholder"></div>    <div class="tp-arr-img-over"></div>	<span class="tp-arr-titleholder"></span> </div>',
+					left: {
+						h_align:"left",
+						v_align:"center",
+						h_offset:30,
+						v_offset:0
+					},
+					right: {
+						h_align:"right",
+						v_align:"center",
+						h_offset:30,
+						v_offset:0
+					}
+				}
+				,
+				touch:{
+					touchenabled:"on",
+					swipe_treshold : 75,
+					swipe_min_touches : 1,
+					drag_block_vertical:false,
+					swipe_direction:"horizontal"
+				}
+				,
+				bullets: {
+	                enable:true,
+	                hide_onmobile:true,
+	                hide_under:600,
+	                style:"hermes",
+	                hide_onleave:true,
+	                hide_delay:200,
+	                hide_delay_mobile:1200,
+	                direction:"horizontal",
+	                h_align:"center",
+	                v_align:"bottom",
+	                h_offset:0,
+	                v_offset:30,
+	                space:5
+				}
+			},
+			gridwidth:1240,
+			gridheight:497 
+	    }); 
+	}); 
+	</script>
+
+	<!--Start of Tawk.to Script-->
+	<!-- <script type="text/javascript">
+	var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+	(function(){
+	var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+	s1.async=true;
+	s1.src='https://embed.tawk.to/588129ee8416045a86842a32/1b7gcujqu';
+	s1.charset='UTF-8';
+	s1.setAttribute('crossorigin','*');
+	s0.parentNode.insertBefore(s1,s0);
+	})();
+	</script> -->
+	<!--End of Tawk.to Script-->
+
+
+
+
+	 <!-- 
+ <script type='text/javascript'>
+ window.$_REVECHAT_API || (function(d, w) { var r = $_REVECHAT_API = function(c) {r._.push(c);}; w.__revechat_account='10826';w.__revechat_version=2;
+   r._= []; var rc = d.createElement('script'); rc.type = 'text/javascript'; rc.async = true; rc.setAttribute('charset', 'utf-8');
+   rc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'static.revechat.com/widget/scripts/new-livechat.js?'+new Date().getTime();
+   var s = d.getElementsByTagName('script')[0]; s.parentNode.insertBefore(rc, s);
+ })(document, window);
+</script>
+ -->
+</body>
+</html>
